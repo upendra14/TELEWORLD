@@ -1,0 +1,501 @@
+.H-bdy{
+    background-color: rgb(22, 18, 41)!important;
+    font-weight: bold;
+    font-family: 'Doppio One', sans-serif;
+}
+.name1,.name2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+.name2{font-size: 1.5vw;}
+.Home-s{
+    height: 43vw;
+    color: white; 
+    text-align: center;
+}
+section{
+    animation-name: appear;
+    animation-delay: 0;
+    animation-duration: 3s; 
+    margin: 0 0 10% 0;
+}
+@keyframes appear{
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25
+    }
+    50% {
+        opacity: 0.5
+    }
+    75% {
+        opacity: 0.75
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.t-logo{
+    height: 5vw;
+    width: 5vw;
+    float: left; 
+}
+.logo_heading{
+    padding: 5% 0 1.4% 10%;
+    text-align: left;
+}
+h1,h2{
+    margin: 0!important;
+}
+.slogan{
+    font-size: 6.5vw;
+    line-height: 1; 
+    padding: 0 23vw;
+}
+.highlight{
+    color: rgb(66, 184, 253);
+    display: inline;
+}
+.H-btn{
+    margin: 3% 0 0 0!important;
+}
+@media screen and (max-width:480px){
+    .Home-s{height: 65vw!important;}
+    .slogan{padding: 4% 23%;font-size: 8vw!important;}
+    .name1{font-size: 5vw!important;}
+    .name2{font-size: 2.5vw!important;} 
+    .t-logo{height: 8vw!important;width: 8vw!important;}
+    .slogan{font-size: 10vw!important;}
+    h1{font-size: 1.3rem!important;}
+    h3{font-size: 0.8rem!important;}
+    .msg{height: 7vw!important;}
+    .cmp-sym{font-size: 1.5rem!important;margin-bottom: 2rem;}
+    .go{height: 5vw!important;font-size: 2.5vw!important;padding: 0 1vw!important;}
+    .phone{width: 4.3rem!important;}
+    .airtel-btn{font-size: 2.3vw!important;margin-left: 2vw!important;}
+    .plan-h{margin: 4rem 0 0 1rem!important;}
+    .A-p1{font-size: 2vw!important;}
+    .plan-cst{margin-left: 0.2rem;}
+    .rate-btn{height: 4.5vw;width: 8.5vw;font-size: 1.5vw!important;margin-left: 2vw;padding: 0!important;}
+    .back-det{font-size: 0.6rem!important;}
+    .intro-h{font-size: 3.5vw;}
+    .intro-b{font-size: 2vw;}
+    .cnct-b{font-size: 0.3rem!important;}
+    .H-btn{padding: 0.3rem 0.7rem!important;font-size: 0.6rem!important;}
+    .H-btn:hover{padding: 0.5rem 0.9rem!important;font-size: 0.7rem!important;}
+    .qty-name{font-size: 2vw;padding-left: 11vw;}
+    .qty{padding-left: 11vw;}
+    .data-div{text-align: left;}
+    .S-btn{margin: 0.7vw!important;font-size: 2.5vw!important;}
+    .phone-btn{font-size: 2vw!important;margin-left: 4.5vw!important;}
+
+    .A-s{height: 60vw!important;}
+    .A-pic{height: 48vw!important;width: 56vw!important;}
+    .A-h-t{font-size: 4.6vw!important;}
+    .A-p{margin-bottom: 0!important;font-size: 1.6vw!important;}
+    .A-card-body,.vi-card-body{padding-top: 1.3vw!important;}
+    .card-btn{font-size: 1.5vw!important;margin-top: 1vw!important;}
+    .twr-logo{height: 5vw!important;width: 5vw!important;}
+    .j-pic{height: 40vw!important;width: 40vw!important;bottom: 10vw!important;}
+    .j-post-crd-bdy{padding-top: 2.5vw!important;}
+
+}
+.H-btn:hover{
+    padding: 0.7% 1.5vw!important;
+    background-color: rgb(22, 18, 41)!important;
+    color: white!important;
+    font-size: 1.3!important;
+}
+
+.V{ color: red; display: inline;}
+.I{ color: yellow; display: inline;}
+.cmp-sym{
+    font-size: 4.1vw;
+    text-align: left;
+    padding: 0 0 3% 16.5%;
+    position: relative;
+}
+
+.JIO-l { color: rgb(0, 74, 152); display: inline;}
+.Airtel-l { color: rgb(255, 22, 22); display: inline;}
+
+.go{
+    margin-left:2%!important;
+    height: 3vw;
+    position: absolute;
+    top: 1.5vw;
+}
+.A-p1{font-size: 2vw;}
+.phone{
+    padding: 2% 0 2.5vw 4%;
+    width: 12vw;
+}
+.plan-h{
+    color: rgb(66, 184, 253);
+    font-size: 2vw;
+    margin: 7vw 0 1vw 0;
+}
+.phone-btn{
+    background-color: rgb(49, 66, 66)!important;
+    color: white!important;
+    padding: 0.7vw 3vw!important;
+}
+.phone-btn:hover{
+    color: black!important;
+    background-color: #fff!important;
+}
+.plan-cst{
+    font-size: 1.3vw;
+}
+.row{
+    padding: 0 14%;
+}
+.fb{
+    height: 37vw;
+    width: 35vw;
+}
+.data-col{position: relative;}
+.graph{
+    height: 10vw;
+    width: 10vw;
+    position: absolute;
+    left: 1vw;
+    float: left;
+}
+.qty{
+    color: rgb(66, 184, 253);
+    font-size: 3vw;
+    margin-bottom: 0;
+}
+.data-div{
+    padding-top: 3vw;
+    padding-bottom: 5vw;
+}
+.tower{
+    height: 30vw;
+    width: 27vw;
+    float: left;
+    padding-right: 4.5vw;
+}
+.tower-col{
+    text-align: left;
+    font-size: 1.5vw;
+}
+.cnct-img{
+    height: 39vw;
+    width: 29vw;
+}
+.creator,.ask{
+    height: 7vw;
+    width: 7vw;
+    float: left;
+}
+.contacts{
+    height: 48vw;
+    padding-top: 5vw;
+}
+.cnct-hh{
+    font-size: 4.1vw;
+    text-align: left; 
+}
+.cnct-p{position: relative;}
+.cnct-h{
+    font-size: 2vw;
+    text-align: left;
+    margin: 4vw 0 0 0;
+    margin-bottom: 0;
+    color: rgb(66, 184, 253);
+}
+.cnct-col{
+    text-align: left;
+}
+a:link,a:visited{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.1vw;
+}
+.media{
+    text-align: center;
+    margin-bottom: 2vw;
+}
+.media-i{
+    margin-left: 3vw;
+}
+.back-det{font-size: 2vw;}
+
+.flip-card {
+    background-color: transparent;
+    border-width: 0!important;
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid #f1f1f1;
+    margin-left: 3.5vw;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+
+    animation-name: floats;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(22, 18, 41)!important;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);}
+
+
+/Airtel/  /................................................................................................./  
+
+
+.A-bdy{
+    background-color: rgb(22, 18, 41);
+    color: white;
+    font-family: 'Doppio One', sans-serif;
+}
+.A-s{
+    position: relative;
+    background-color: rgb(235, 28, 37);
+    height: 47vw;
+    font-weight: Bold;
+}
+.A-pic{
+    height: 41vw;
+    width: 52vw;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.A-h-t{
+    font-size: 4.5vw;
+    color: white;
+    padding-left: 2.5vw;
+    margin-top: 5vw;
+}
+.carousel-item {
+    text-align: center;
+    margin: 10vw 0;
+}  
+.A-slides-img{
+    width: 80%;
+    height: 20vw;
+  }
+.twr-logo{
+    height: 3vw;
+    width: 3vw;
+    float: left;
+}
+.name{
+    display: inline;
+    color: rgb(22, 18, 41);
+    font-weight: bold;
+    padding-left: 1vw;
+}
+.A-logo{
+    position: absolute;
+    bottom: 5.5vw;
+    color: white;
+}
+.S-btn{
+    margin-left: 2vw;
+    margin-top: 3vw;
+    border-radius: 2rem!important;
+    padding: 0.7vw 3vw!important;
+}
+.O-btn:hover{
+    opacity: 0.7;
+}
+.A-plans{
+    text-align: center;
+}
+.head{
+    margin: 9vw 0 9vw 0!important;
+    font-size: 5vw;
+    color: rgb(235, 28, 37);
+    font-weight: Bold;
+}
+.A-card{
+    background: rgb(235, 28, 37)!important;
+    border-radius: 2vw!important;
+    height: 22vw;
+    width: 17vw;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+.c-1,.c-2,.c-3{
+    animation-name: floats;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+}
+.c-2{animation-delay: 1.5s;}
+.c-3{animation-delay: 2.5s;}
+@keyframes floats{
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-0.65vw);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
+
+.A-card-body,.j-post-crd-bdy{    
+    font-size: 1.5vw;
+    color: black;
+}
+.A-row{
+    padding: 0 16vw!important; 
+}
+.A-col{
+    margin-bottom: 10vw;
+}
+.card-btn{  
+    padding: 0.8vw 2vw!important;
+    margin-top: 1vw;
+    margin-bottom: 1.5vw!important;
+}
+.card-btn:hover{
+    opacity: 0.8;
+}
+.A-p{font-size: 2vw;font-weight: bold;}
+
+
+/Jio................................................................................................./  
+.j-bdy{
+    background-color: rgb(22, 18, 41);
+    color: rgb(28, 45, 139);
+}
+.j-s{
+    background-color: rgb(53, 136, 199);
+    position: relative;
+    height: 47vw;
+    font-weight: Bold;
+}
+.j-pic{
+    height: 35vw;
+    width: 35vw;
+    position: absolute;
+    bottom: 6vw;
+    right: 6vw;
+}
+.j-h-t{
+    color: rgb(28, 45, 139);
+}
+.j-logo{
+    color: rgb(28, 45, 139);
+}
+.carousel-caption{text-align: center;}
+.j-slides-img{width: 65%;height: 40vw;}
+.slide-text{
+    background-color: #3535f3;
+    border-radius: 5vw;
+    height: 10vw;
+    font-size: 3vw;
+}
+.slide-text2{padding-top: 2vw;}
+.j-head{
+    color: rgb(28, 45, 139);
+    margin: 9vw 0 9vw 0!important;
+    font-size: 5vw;
+    font-weight: Bold;
+}
+.j-card{
+    background: rgb(53, 136, 199)!important;
+}
+
+.j-card-body{    
+    color: rgb(22, 22, 68);
+}
+
+
+/VI................................................................................................./  
+.vi-bdy{
+    background-color: rgb(22, 18, 41);
+    color: white;
+}
+.vi-s{
+    background-color: rgb(238, 39, 55);
+}
+.vi-pic{
+    height: 55vw;
+    width: 55vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.vi-h-t{
+    color: white;
+    padding-left: 0;
+}
+.vi-logo{
+    color: white;
+}
+.vi-slides{padding: 0 10vw;}
+.vi-slides-img{
+    height: 35vw;
+    width: 35vw;
+}
+.vi-head{
+    color: rgb(238, 39, 55);
+    margin: 9vw 0 9vw 0!important;
+    font-size: 5vw;
+    font-weight: Bold;
+}
+.vi-card{
+    background: #dbb427!important;
+}
+.vi-s-btn{
+    font-size: 1.4vw!important;
+    font-weight: bold!important;
+    color: white!important;
+    margin-right: 1vw;
+    margin-top: 3vw;
+    border-radius: 2rem!important;
+    padding: 0.7vw 3vw!important;
+}
+.vi-card-body{    
+    color: rgb(32, 18, 41);
+}
+.vi-crd-btn{
+    background-color: rgb(22, 18, 41)!important;
+    color: white!important;
+}
